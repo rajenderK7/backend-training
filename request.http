@@ -1,0 +1,27 @@
+GET http://localhost:3000/get-users
+
+###
+GET http://localhost:3000/get-user/8
+
+###
+POST http://localhost:3000/add-user
+Content-Type: application/json
+
+{
+    "id": 11,
+    "name": "Virat Kohli",
+    "username": "virat.kohli",
+    "email": "virat@kohli.com"
+}
+
+###
+PUT http://localhost:3000/update-user/8
+Content-Type: application/json
+
+{
+    "id": 8,
+    "name": "Nicholas Pooran"
+}
+
+###
+DELETE http://localhost:3000/delete-user/8
