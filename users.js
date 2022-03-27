@@ -43,7 +43,7 @@ const users = [
   },
   {
     id: 8,
-    name: "Nicholas Runolfsdottir V",
+    name: "Nicholas Romanoff",
     username: "Maxime_Nienow",
     email: "Sherwood@rosamond.me",
   },
